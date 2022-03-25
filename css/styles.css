@@ -1,0 +1,67 @@
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
+
+.text {
+  background-color: tomato;
+  color: white;
+}
+
+:root {
+  --brand-color: #4988c7;
+}
+
+.section {
+  border: 2px solid var(--brand-color, orange);
+}
+
+.section-title {
+  color: var(--brand-color, rgb(226, 215, 215));
+}
+
+.section-title::before {
+  background-color: var(--brand-color, tomato);
+}
+
+.alert {
+  --alert-text-color: black;
+  --alert-accent-color: tomato;
+}
+
+.alert-text {
+  color: var(--alert-text-color);
+  border: 1px solid var(--alert-accent-color);
+}
+
+.alert-icon {
+  background-color: var(--alert-accent-color);
+}
+
+.text > span {
+  text-decoration: line-through;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.site-nav .link {
+  text-transform: capitalize;
+}
+
+.title {
+  color: #10396e;
+  text-shadow: 2px 2px 20px #14e97e, 5px 5px 5px #000000;
+}
